@@ -4,7 +4,7 @@ Convert VOC XML annotation data set to YOLO data set.
 ## usage
 
 ```shell
-python ./voc2yolo.py --xml path/to/xml/ --img path/to/img --out output/path --ratio 0.8 --recursive true --max_workders 4
+python ./voc2yolo.py --xml path/to/xml/ --img path/to/img --out output/path --ratio 0.8 --recursive true --max_workers 4
 ```
 
 The default "path" in the outputting yaml config is ".", you may need to edit it to fet your own directory structure.
